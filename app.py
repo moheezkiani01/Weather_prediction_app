@@ -20,7 +20,7 @@ st.markdown("Use this app to get predictions for **Minimum**, **Maximum**, and *
 
 # ========== USER INPUT ==========
 st.header("🔧 Input Weather Details")
-city = st.selectbox("📍 Select City", ["Islamabad", "Lahore", "Karachi", "Peshawar", "Quetta", "Gilgit"])
+city = st.selectbox("📍 Select City", ["Islamabad", "Lahore", "Quetta"])
 year = st.number_input("📅 Year", min_value=2000, max_value=2100, value=2025)
 month = st.number_input("📆 Month", min_value=1, max_value=12, value=6)
 day = st.number_input("📆 Day", min_value=1, max_value=31, value=15)
